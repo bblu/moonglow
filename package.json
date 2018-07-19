@@ -1,0 +1,33 @@
+{
+  "name": "moonglow",
+  "version": "0.1.0",
+  "description": "Framework for simple business with mongoose and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bblu/moonglow.git"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "bblu",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bblu/moonglow/issues"
+  },
+  "homepage": "https://github.com/bblu/moonglow#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.2.4"
+  }
+}
